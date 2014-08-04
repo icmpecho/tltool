@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "tltool"
   spec.version       = Tltool::VERSION
   spec.authors       = ["Pinnapong Silpsakulsuk"]
-  spec.email         = ["ping@abctech-thailand.com"]
+  spec.email         = ["pinnapong@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
   spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
