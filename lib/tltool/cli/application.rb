@@ -1,11 +1,12 @@
 require 'thor'
+require 'tltool/version'
 
 module Tltool
   module Cli
     class Application < Thor
-      desc "hello NAME", "say hello to NAME"
-      def hello(name)
-        puts "Hello #{name}"
+      desc "version", "Print out current Timelapse Tool version."
+      def version()
+        puts "#{VERSION}"
       end
     end
   end
